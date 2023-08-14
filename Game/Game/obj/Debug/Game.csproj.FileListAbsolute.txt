@@ -1,0 +1,16 @@
+D:\SampleProjects\Game\Game\bin\Debug\Game.exe.config
+D:\SampleProjects\Game\Game\bin\Debug\Game.exe
+D:\SampleProjects\Game\Game\bin\Debug\Game.pdb
+D:\SampleProjects\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+D:\SampleProjects\Game\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+D:\SampleProjects\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\SampleProjects\Game\Game\obj\Debug\Game.exe
+D:\SampleProjects\Game\Game\obj\Debug\Game.pdb
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\bin\Debug\Game.exe.config
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\bin\Debug\Game.exe
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\bin\Debug\Game.pdb
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\obj\Debug\Game.exe
+C:\Users\amolg\OneDrive\Desktop\SampleProjects\Game\Game\obj\Debug\Game.pdb

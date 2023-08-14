@@ -1,0 +1,31 @@
+public class Function
+{
+    private readonly IAmazonEC2 _ec2Client = new AmazonEC2Client();
+
+    public async Task FunctionHandler(ScheduledEvent scheduledEvent, ILambdaContext context)
+    {
+        try
+        {
+            // Get a list of your EBS volumes (you might need to filter this)
+            var describeVolumesResponse = await _ec2Client.DescribeVolumesAsync();
+            var gp2Volumes = describeVolumesResponse.Volumes
+                .Where(volume => volume.VolumeType == "gp2");
+
+            // Change the volume type for each GP2 volume to GP3
+            foreach (var gp2Volume in gp2Volumes)
+            {
+                await _ec2Client.ModifyVolumeAsync(new ModifyVolumeRequest
+                {
+                    VolumeId = gp2Volume.VolumeId,
+                    VolumeType = VolumeType.Gp3
+                });
+            }
+
+            context.Logger.LogLine("EBS volume type changes completed.");
+        }
+        catch (Exception ex)
+        {
+            context.Logger.LogLine($"Error: {ex.Message}");
+        }
+    }
+}
